@@ -1,1 +1,1 @@
-You can fid my personal webpage at:  https://martas1999.github.io/
+My developer portfolio is available at https://gorizzon.github.io/developer-portfolio/
