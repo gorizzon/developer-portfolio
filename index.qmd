@@ -1,8 +1,10 @@
 ---
 title: "Giuliana Orizzonte"
 about:
-  template: solana
+  template: trestles
   image: picture.JPG
+  image-shape: rounded
+  image-width: 20em
   links:
     - icon: github
       text: Github

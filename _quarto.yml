@@ -15,8 +15,8 @@ website:
 format:
   html:
     theme:
-      light: solar
-      dark: solar
+      light: minty
+      dark: lux
     css: styles.css
     toc: true
     page-layout: full
