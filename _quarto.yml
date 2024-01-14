@@ -3,14 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Marta Sech"
+  title: "Giuliana Orizzonte"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - CV.qmd
-      - Extra.qmd
+      - Projects.qmd
 
 format:
   html:

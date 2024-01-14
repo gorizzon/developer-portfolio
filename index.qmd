@@ -1,13 +1,15 @@
 ---
-title: "Marta Sech"
+title: "Giuliana Orizzonte"
 about:
-  template: jolla
-  image: marta_pic.jpeg
+  template: solana
+  image: picture.JPG
   links:
-    - text: Github
-      href: https://github.com/martas1999
-    - text: Email
-      href: mailto::sechmarta@yahoo.it
+    - icon: github
+      text: Github
+      href: https://github.com/gorizzon
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/giuliana-orizzonte/
 ---
 
-Research master student in Methodology and Statistics
+Graduate Student in Applied Statistics
