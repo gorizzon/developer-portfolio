@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Marta Sech",
+    "title": "Giuliana Orizzonte",
     "section": "",
-    "text": "Research master student in Methodology and Statistics"
+    "text": "Graduate Student in Applied Statistics"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "Hi there! I am Marta Sech, an italian 24-years-old master student at Utrecht University. I enjoy reading historical novels and watching sport on television: I am particular fan of Formula 1.\nCuriosity moves me to explore new contexts and to immerse myself in unknown subjects outside my comfort zone. To achieve this, I really enjoy collaborating with other people and feeling part of a group directed towards a common goal."
+    "text": "I’m Giuliana Orizzonte, a graduate student in applied statistics based in Amsterdam. I’m currently in the final year of the Research Master Methodology and Statistics for the Behavioural, Biomedical, and Social Sciences at Utrecht University, and I will graduate in June 2024.\nMy master thesis is on the use of Graph Neural Networks for patient classification and analysis of disease mechanisms. Outside of my studies, I work as a Junior Researcher at the Amsterdam University of Applied Sciences in the Responsible IT work group. Here, I’m involved in projects like an AI-based consensus machine and methods to de-bias algorithms during training, which allows me to combine my interest in statistics with a commitment to responsible technology that supports human wellbeing and development.\nI’m open to job opportunities in data science, machine learning, and beyond, always looking to apply my skills in meaningful and impactful ways.\nIn my free time I read, go to concerts, ponder over the meaning(lessness) of life, and play board games. My favorite author is Saramago, my favorite concert was New Order, my favorite philosophical theory is Absurdism, and the jury is still out on my favorite game."
   },
   {
     "objectID": "CV.html",
@@ -37,6 +37,13 @@
   {
     "objectID": "Extra.html",
     "href": "Extra.html",
+    "title": "Main Extracurricular activities",
+    "section": "",
+    "text": "February 2018: OberMUN project (simulated UN General Assembly, WHO commission, representative for Netherlands) - Trieste (Italy)\nJanuary 2018: Exponi project (debate competition on topical issues) - Udine (Italy)\nJanuary 2018: Project to raise awareness on welcoming immigrants discussed with the former Italian Minister of Public Education - Rome (Italy)\n2015 - 2016: Illustrator for the high school newspaper\n2008 - 2018: Agonistic volleyball"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
     "title": "Main Extracurricular activities",
     "section": "",
     "text": "February 2018: OberMUN project (simulated UN General Assembly, WHO commission, representative for Netherlands) - Trieste (Italy)\nJanuary 2018: Exponi project (debate competition on topical issues) - Udine (Italy)\nJanuary 2018: Project to raise awareness on welcoming immigrants discussed with the former Italian Minister of Public Education - Rome (Italy)\n2015 - 2016: Illustrator for the high school newspaper\n2008 - 2018: Agonistic volleyball"
