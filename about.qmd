@@ -1,5 +1,10 @@
 ---
 title: "About Me"
+about:
+  template: solana
+  image: picture.JPG
+  image-shape: rounded
+  image-width: 20em
 ---
 
 I'm Giuliana Orizzonte, a graduate student in applied statistics based in Amsterdam. I'm currently in the final year of the Research Master Methodology and Statistics for the Behavioural, Biomedical, and Social Sciences at Utrecht University, and I will graduate in June 2024.
