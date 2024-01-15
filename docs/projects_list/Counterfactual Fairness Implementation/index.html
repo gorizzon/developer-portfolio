@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Giuliana Orizzonte">
+<meta name="dcterms.date" content="2023-09-03">
+<meta name="description" content="Implementing Counterfactual Fairness in DevOps">
 
-<title>Giuliana Orizzonte - CV</title>
+<title>Giuliana Orizzonte - Counterfactual Fairness</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -73,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Giuliana Orizzonte</span>
     </a>
   </div>
@@ -84,19 +87,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./CV.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../CV.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Projects.html" rel="" target="">
+    <a class="nav-link" href="../../Projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -108,63 +111,78 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Counterfactual Fairness</h1>
+                  <div>
+        <div class="description">
+          Implementing Counterfactual Fairness in DevOps
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Work Project</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Giuliana Orizzonte </p>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              Responsible IT Amsterdam, Amsterdam University of Applied Sciences
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 3, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">CV</h1>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p>The aim of this project is to explore the possibility of utilizing the theory of counterfactual fariness to build predictive models that eliminate the biases many machine learning models grapple with. Unfortunately, the project was temporarily shelved due to shifting priorities, but I am looking forward to continue with it in 2024!</p>
+<p>So far I have created a script to implement CFF in a classification model, and the next steps involve assessing the feasibility of utilizing CFF in DevOps, particularly with large datasets, and exploring whether a focus on fairness affects other performance metrics.</p>
+<p>While I do have an interim 6-page report, I am sure nobody wants to be subjected to this torture, so here I highlight some key points of my work:</p>
+<p><strong>Counterfactual Fairness Framework:</strong> Counterfactual Fairness defines Fairness using Counterfactuals, i.e., alternative realities where sensitive features (such as race or gender) are altered while other features remain constant. For example, we may define a model to answer the question “Would the same person have been hired if they had been an immigrant (or not)?”. If the model predictions remain consistent between the factual and the counterfactual, it indicates fairness. This study replicated the CFF methodology from a previous paper, focusing on gender bias in hiring decisions.</p>
+<p><strong>Comparison of Bayesian and Frequentist Statistics:</strong> The study explores counterfactual fairness using both a deterministic model, rooted in frequentist statistics, and a non-deterministic model, rooted in Bayesian statistics. It examines conceptual differences between frequentist and Bayesian statistics, emphasizing their impact on predictive modeling and fairness. While the non-deterministic model results in fairer predictions, its implementation does considerably slow down prediction - which highlights the trade-offs in model performance that may occur when focusing on fairness.</p>
+<p><strong>Methodology:</strong></p>
 <ul>
-<li><p>2022 - 2024: Research MSc in Methodology and Statistics, Utrecht University</p>
-<p>The core curriculum includes courses such as Multivariate Statistics, Computational Inference with R, Multilevel Modelling, Bayesian Statistics, and Biomedical Statistics. The focus of my specialization is in applied data science and machine learning, and my thesis is on multi-omics data integration and machine learning techniques for data augmentation.</p></li>
-<li><p>2018 - 2021: BSc in Psychology, University of Amsterdam</p>
-<p>GPA of 9.08 / 10. Graduated Cum Laude. Courses include Scientific &amp; Statistical Reasoning, Research and Writing Practicum, Research Methods and Statistics, Neuropsychology, Cognitive Psychology.</p></li>
-<li><p>2013 - 2016: Bachelor of Liberal Arts and Sciences in Computer Science, Amsterdam University College</p>
-<p>GPA of 3.5 / 4. Major in Computer Science and Logic. Courses include Big Data, Computational Thinking, Advanced Logic, Information Lab, Mathematical Logic, Data Structure and Algorithms.</p></li>
-</ul>
-</section>
-<section id="work-experience" class="level2">
-<h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
+<li><p>Data Source: The “Utrecht Fairness Recruitment dataset” from Kaggle, simulating hiring decisions in Dutch companies.</p></li>
+<li><p>Model Levels: Two CFF levels were tested:</p>
 <ul>
-<li><p>October 2022 - ongoing: Junior Researcher Responsible IT and Responsible AI, Amsterdam University of Applied Sciences</p>
-<p>I contribute to finding and creating solutions to integrate responsibility and trustworthiness in technology and artificial intelligence. Each year, the team works on specific projects, often in cooperation with companies or social organizations located in the Netherlands. We also contribute to the academic programs offered by the Amsterdam University of Applied Sciences. In 2023, I worked on an AI-based consensus machine and a method to de-bias algorithms during training using counterfactuals and Bayesian inference.</p></li>
-<li><p>October 2022 - ongoing: Research Assistant Methodology and Statistics, Utrecht University</p>
-<p>I support Dr.&nbsp;K.M. Meitinger in her academic research projects. In the past year, my work included the following: preparing a report on the viability and reliability of using home testing kits for water quality in a citizen science project led by the Dutch Bureau of Statistics, writing a literature review on the use of paradata to assess measurement equivalence, and integrating voice recordings in survey design. In the summer of 2023, I also worked as a research assistant for Dr.&nbsp;R.M. Kuiper, for whom I created tutorials demonstrating how to use the R package `restriktor`, which implements functions to calculate the GORIC(A) information criterion and perform Evidence Synthesis.</p></li>
-<li><p>August 2023: Teaching Assistant Applied Multivariate Analysis, Utrecht Summer School</p>
-<p>I conducted labs, discussion meetings, and quizzes to facilitate and reinforce students’ learning of statistical techniques ranging from simple T-tests to Principal Component Analysis. The course was taught by Dr.&nbsp;D.J. Hessen and is intended to serve as both a revision and further study for graduate students and Ph.D.&nbsp;researchers.</p></li>
+<li><p>Level 2: Uses Bayesian and frequentist estimation, involving latent variables for non-deterministic causes of observable variables.</p></li>
+<li><p>Level 3: Employs a deterministic model with latent variables, focusing on additive error models.</p></li>
+</ul></li>
 </ul>
+<p><strong>Findings:</strong> The Counterfactual Fairness framework effectively reduces bias in predictive models. Bayesian methods are preferred for datasets with less variance and more binary variables, offering flexible and precise estimates. In contrast, frequentist methods are better suited for large datasets with continuous variables, providing faster implementation and broader probability ranges. This study supports the use of CFF in predictive models to achieve ethical and effective decision-making.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
