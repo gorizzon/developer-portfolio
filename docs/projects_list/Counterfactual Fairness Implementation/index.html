@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Giuliana Orizzonte">
+<meta name="dcterms.date" content="2023-09-03">
+<meta name="description" content="Implementing Counterfactual Fairness in DevOps">
 
-<title>Giuliana Orizzonte - Projects</title>
+<title>Giuliana Orizzonte - Counterfactual Fairness</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,40 +64,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -106,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Giuliana Orizzonte</span>
     </a>
   </div>
@@ -117,19 +87,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html" rel="" target="">
+    <a class="nav-link" href="../../CV.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Projects.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../Projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -141,114 +111,80 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Counterfactual Fairness</h1>
+                  <div>
+        <div class="description">
+          Implementing Counterfactual Fairness in DevOps
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Work Project</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Giuliana Orizzonte </p>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              Responsible IT Amsterdam, Amsterdam University of Applied Sciences
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 3, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Work Project">Work Project <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>These are some of the projects that I have worked on.</p>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Work Project" data-listing-date-sort="1702335600000" data-listing-file-modified-sort="1705340703241" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
-<div class="thumbnail">
-<p><a href="./projects_list/The Consensus Machine/index.html"> <img src="./projects_list/The Consensus Machine/consensusmachine.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./projects_list/The Consensus Machine/index.html">
-<h3 class="no-anchor listing-title">
-The Consensus Machine
-</h3>
-<div class="listing-subtitle">
+<p>The aim of this project is to explore the possibility of utilizing the theory of counterfactual fariness to build predictive models that eliminate the biases many machine learning models grapple with. Unfortunately, the project was temporarily shelved due to shifting priorities, but I am looking forward to continue with it in 2024!</p>
+<p>So far I have created a script to implement CFF in a classification model, and the next steps involve assessing the feasibility of utilizing CFF in DevOps, particularly with large datasets, and exploring whether a focus on fairness affects other performance metrics.</p>
+<p>While I do have an interim 6-page report, I am sure nobody wants to be subjected to this torture, so here I highlight some key points of my work:</p>
+<p><strong>Counterfactual Fairness Framework:</strong> Counterfactual Fairness defines Fairness using Counterfactuals, i.e., alternative realities where sensitive features (such as race or gender) are altered while other features remain constant. For example, we may define a model to answer the question “Would the same person have been hired if they had been an immigrant (or not)?”. If the model predictions remain consistent between the factual and the counterfactual, it indicates fairness. This study replicated the CFF methodology from a previous paper, focusing on gender bias in hiring decisions.</p>
+<p><strong>Comparison of Bayesian and Frequentist Statistics:</strong> The study explores counterfactual fairness using both a deterministic model, rooted in frequentist statistics, and a non-deterministic model, rooted in Bayesian statistics. It examines conceptual differences between frequentist and Bayesian statistics, emphasizing their impact on predictive modeling and fairness. While the non-deterministic model results in fairer predictions, its implementation does considerably slow down prediction - which highlights the trade-offs in model performance that may occur when focusing on fairness.</p>
+<p><strong>Methodology:</strong></p>
+<ul>
+<li><p>Data Source: The “Utrecht Fairness Recruitment dataset” from Kaggle, simulating hiring decisions in Dutch companies.</p></li>
+<li><p>Model Levels: Two CFF levels were tested:</p>
+<ul>
+<li><p>Level 2: Uses Bayesian and frequentist estimation, involving latent variables for non-deterministic causes of observable variables.</p></li>
+<li><p>Level 3: Employs a deterministic model with latent variables, focusing on additive error models.</p></li>
+</ul></li>
+</ul>
+<p><strong>Findings:</strong> The Counterfactual Fairness framework effectively reduces bias in predictive models. Bayesian methods are preferred for datasets with less variance and more binary variables, offering flexible and precise estimates. In contrast, frequentist methods are better suited for large datasets with continuous variables, providing faster implementation and broader probability ranges. This study supports the use of CFF in predictive models to achieve ethical and effective decision-making.</p>
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Work Project'); return false;">
-Work Project
-</div>
-</div>
-<a href="./projects_list/The Consensus Machine/index.html">
-<div class="listing-description">
-<p>Leveraging AI to Reach Consensus</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./projects_list/The Consensus Machine/index.html">
-<div class="listing-date">
-Dec 12, 2023
-</div>
-<div class="listing-author">
-Giuliana Orizzonte and Yuri Westplat
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Work Project" data-listing-date-sort="1693692000000" data-listing-file-modified-sort="1705343269816" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./projects_list/Counterfactual Fairness Implementation/index.html"> <img src="./projects_list/Counterfactual Fairness Implementation/SEMbayes.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./projects_list/Counterfactual Fairness Implementation/index.html">
-<h3 class="no-anchor listing-title">
-Counterfactual Fairness
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Work Project'); return false;">
-Work Project
-</div>
-</div>
-<a href="./projects_list/Counterfactual Fairness Implementation/index.html">
-<div class="listing-description">
-<p>Implementing Counterfactual Fairness in DevOps</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./projects_list/Counterfactual Fairness Implementation/index.html">
-<div class="listing-date">
-Sep 3, 2023
-</div>
-<div class="listing-author">
-Giuliana Orizzonte
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
