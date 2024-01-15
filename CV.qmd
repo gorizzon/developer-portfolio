@@ -28,4 +28,4 @@ title: "CV"
 
 -   August 2023: Teaching Assistant Applied Multivariate Analysis, Utrecht Summer School
 
-    I conducted labs, discussion meetings, and quizzes to facilitate and reinforce students\' learning of statistical techniques ranging from simple T-tests to Principal Component Analysis. The course was taught by Dr. D.J. Hessen and is intended to serve as both a revision and further study for graduate students and Ph.D. researchers.
+    I conducted labs, discussion meetings, and quizzes to facilitate and reinforce students' learning of statistical techniques ranging from simple T-tests to Principal Component Analysis. The course was taught by Dr. D.J. Hessen and is intended to serve as both a revision and further study for graduate students and Ph.D. researchers.

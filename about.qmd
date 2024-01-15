@@ -7,7 +7,7 @@ about:
   image-width: 20em
 ---
 
-I'm Giuliana Orizzonte, a graduate student in applied statistics based in Amsterdam. I'm currently in the final year of the Research Master Methodology and Statistics for the Behavioural, Biomedical, and Social Sciences at Utrecht University, and I will graduate in June 2024.
+I'm Giuliana Orizzonte, a graduate student in applied statistics based in Amsterdam. I'm in the final year of the Research Master Methodology and Statistics for the Behavioural, Biomedical, and Social Sciences at Utrecht University, and I will graduate in June 2024.
 
 My master thesis is on the use of Graph Neural Networks for patient classification and analysis of disease mechanisms. Outside of my studies, I work as a Junior Researcher at the Amsterdam University of Applied Sciences in the Responsible IT work group. Here, I'm involved in projects like an AI-based consensus machine and methods to de-bias algorithms during training, which allows me to combine my interest in statistics with a commitment to responsible technology that supports human wellbeing and development.
 
